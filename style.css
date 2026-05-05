@@ -1,0 +1,430 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    padding: 0;
+    margin: 0;
+    background-color: rgb(252, 252, 252);
+    font-family: Helvetica, sans-serif;
+    font-weight: 400;
+}
+
+/*HEADER START*/
+header{
+    background-color: aliceblue;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 80px;
+    width: 100%;
+}
+
+.logoText{
+    padding-left: 80px;
+    width: 30%;
+    display: flex;
+    gap: 10px;
+}
+
+.logoText img{
+    width: 30px;
+}
+
+.logoText div h4{
+    position: absolute;
+    top: 35px;
+    left: 120px;
+}
+
+.navbtn{
+    display: flex;
+    align-items: center;
+    height:80px;
+}
+
+.navbtn button{
+    padding: 10px;
+    border: none;
+    border-radius: 10px;
+}
+
+.navbtn .loginbtn{
+    background-color: #d9214e;
+    color: white;
+    width: 90px;
+    font-weight: bold;
+}
+
+.iden1 .idbtn{
+    background-color: #009ef7;
+    color: white;
+    border-radius: 10px 0 0 10px;
+    width: 0px;
+}
+
+.iden2 .enbtn{
+    color: rgb(178, 179, 180);
+    border: 0.5px solid rgb(210, 208, 208);
+    margin-right: 5px;
+    border-radius: 0 10px 10px 0;
+    width: 50px;
+
+}
+
+.navbtn .iden1 button{
+    width: 50px;
+}
+
+.btnloc{
+    width: 70%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.btnloc button{
+    border: none;
+    background-color: aliceblue;
+    color: #606161;
+    font-size: 1em;
+    font-weight: bold;
+    margin: 10px;
+}
+/*HEADER END*/
+
+/*SECTION*/
+section{
+    background-color: rgb(196, 225, 242);
+    background-image: url(https://pmb.pcr.ac.id/uploads/assets/img/general-bg3.svg);
+    height: auto;
+    display: flex;
+    align-items: center;
+}
+
+section .textContainer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: auto;
+
+}
+
+.textContainer .text{
+    font-size: 1vw;
+    width: 70%;
+}
+
+.textContainer .text a{
+    font-style: normal;
+    text-decoration: none;
+    color: #009ef7;
+}
+
+.text button{
+    font-style: normal;
+    font-weight: bold;
+    padding: 15px;
+    border-radius: 5px;
+}
+
+.text .Unduh{
+    border: 1px solid #009ef7;
+    color: #009ef7;
+    background: none;
+}
+
+.text .Daftar{
+    border: none;
+    color: white;
+    background: #009ef7;
+}
+
+.text h1{
+    color: #3b3c3c;
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 2.5em;
+}
+
+.content{
+    height: 70vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.content video{
+    width: 50%;
+    border-radius: 10px;
+}
+
+/*SECTION END*/
+
+/*SECTION 2 START*/
+.Section2{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(232, 232, 232);
+    padding: 20px;
+}
+
+.Section2 div button{
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3);
+    width: 350px;
+    padding: 20px;
+    margin: 10px;
+    border: none;
+    color: #009ef7;
+    font-size: 1.3em;
+    font-weight: bold;
+    border-radius: 10px;
+    text-align: left;
+}
+
+/*SECTION 2 END*/
+
+/*SECTTION 3 START*/
+.Section3{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    width: 100%;
+    position: relative;
+}
+
+
+.Section3 .Head{
+    text-align: center;
+    font-size: large;
+    width: 100%;
+    color: #009ef7;
+}
+
+.Section3 .Container{
+    display: flex;
+    position: relative;
+}
+
+.Container .leftSide{
+    flex: 1;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 10px;
+    justify-content: space-between;
+}
+
+.Container .middleSide{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 40%;
+    margin-top: -100px;
+}
+
+.Container .middleSide img{
+    width:400px;
+    
+}
+
+.Container .rightSide{
+    flex: 1;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 10px;
+    justify-content: space-between;
+}
+
+
+.leftSide .card{
+    width:50%;
+    text-align: justify;
+}
+
+.rightSide .card{
+    width:50%;
+    text-align: justify;
+}
+
+.Container .rightSide .card img{
+    width: 9vw;
+}
+
+.Container .card img{
+    width: 10vw;
+}
+
+.Container{
+    overflow-wrap: break-word;
+}
+
+.Container .card{
+    padding-top: 10px;
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align:center;
+}
+
+/*SECTTION 3 END*/
+
+/*SECTTION 4 START*/
+.Section4{
+    background-color: rgb(195, 234, 221);
+    display: flex;
+    flex-direction: column;
+}
+
+.Section4 .Head{
+    display: flex;
+    justify-content: space-between;
+    margin-left: 100px;
+    margin-right: 100px;
+    
+}
+
+.Section4 .Head h1{
+    color: #009ef7;
+    font-size: 1.5em;
+}
+
+.btnLihatSemua{
+    display: flex;
+
+    align-items: center;
+}
+
+.btnLihatSemua button{
+    padding: 10px;
+    border-radius: 10px;
+    border: none;
+    color: white;
+    background-color: #009ef7;
+    font-size: 0.8em;
+    font-weight: bold;
+}
+
+.Section4 .Container4{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 20px;
+}
+
+.Section4 .Container4 .card{
+    background-color: white;
+    width: 100px;
+    display: flex;
+    width: fit-content;
+    flex-direction: column;
+    border-radius: 10px;
+
+    p{
+        margin: 10px;
+    }
+
+    h3{
+        color:#009ef7;
+        margin: 5px;
+    }
+}
+
+.Section4 .Container4 .card img{
+    border-radius: 10px 10px 0 0;
+    width: 400px;
+}
+/*SECTTION 4 END*/
+
+/*INI UNTUK UKURAN LAPTOP*/
+@media (min-width: 769px){
+    .Section4 .Container4{
+        flex-wrap: wrap;
+    }
+}
+
+
+/*INI UNTUK TABLET*/
+@media (min-width: 481px) and (max-width: 768px){
+    .Section4 .Container4{
+        flex-wrap: wrap;
+    }
+}
+
+/* INI UNTUK UKURAN HP*/
+@media (max-width: 480px){
+    header{
+        height: auto;
+    }
+
+    .logoText{
+        flex-wrap: wrap;
+        padding-left: 0px;
+        width: 0px;
+        gap: 0px;
+        margin-left: 20px;
+        margin-top: 5px;
+    }
+
+    .logoText p{
+        display: none;
+    }
+
+    .logoText div h4{
+        display: none;
+    }
+
+
+    header .navbtn{
+       
+    }
+
+    .navbtn{
+        margin-left: 10px;
+    }
+
+    .navbtn .loginbtn{
+        background-color: #d9214e;
+        color: white;
+        margin-left: 0px;
+        font-weight: bold;
+    }
+
+    section{
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+
+    section .textContainer{
+        height: fit-content;
+    }
+
+    section .content{
+        height: auto;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        min-width: 700px;
+        margin-top: 10px;
+    }
+
+    .textContainer .text{
+        font-size: 20px;
+        width: auto;
+    }
+
+    .btnloc{
+        display: none;
+    }
+
+    .logoText h4{
+    position: absolute;
+    top: 37px;
+    left: 120px;
+}
+}
